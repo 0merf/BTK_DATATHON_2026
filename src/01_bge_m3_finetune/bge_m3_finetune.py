@@ -5,7 +5,7 @@ Bu model, çok dilli metin analizi ile mentör notlarından anlamsal (semantic) 
 ve Boyutluluğun Laneti'ni (Curse of Dimensionality) önlemek adına bu vektörleri 1 boyutlu bir tahmin skoruna 
 (ft_bgem3) indirgeyerek ana tahminleyici modellere beslemektedir. Sızıntıyı (leakage) önlemek için 
 5-Fold OOF kullanılmıştır.
-"""
+
   - gradient_checkpointing
   - batch=4, grad_accum=8 (effective=32)
   - fp16, max_len=96
