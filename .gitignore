@@ -5,7 +5,6 @@ sample_submission.csv
 *.npz
 *.npy
 *.db
-*.png
 
 # Python
 __pycache__/
