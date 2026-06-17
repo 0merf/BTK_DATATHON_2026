@@ -1,0 +1,27 @@
+# Veri Seti ve Gizli Dosyalar (Asla Github'a Yuklenmeyecek)
+train.csv
+test_x.csv
+sample_submission.csv
+*.npz
+*.npy
+*.db
+*.png
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs
+*.log
+catboost_info/
